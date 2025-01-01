@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+   background-image: url(images/bg-pattern-bottom-desktop.svg),
+    url(images/bg-pattern-top-desktop.svg);
+  background-size:  auto contain;
+  background-repeat: no-repeat;
+  font-family: "league spartan", serif;
+  font-size: 15px;
+}
+h1 {
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+  width: 65%;
+  font-size: 2.5rem;
+  line-height: 2.2rem;
+}
+h2{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+.container {
+  width: 100%;
+  margin: 10rem 10rem;
+  padding: 0 10rem;
+  place-content: center;
+}
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.heading {
+  width: 45%;
+}
+p.int {
+  color: var(--Dark-Grayish-Magenta);
+  width: 110%;
+  margin-top: 2rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.con-rate-1,
+.con-rate-2,
+.con-rate-3 {
+  background-color: var(--Light-Grayish-Magenta);
+  margin-top: 1rem;
+  margin-left: 6rem;
+  padding: 1.2rem;
+  border-radius: 0.4rem;
+  width: 30rem;
+}
+
+.con-rate-2 {
+  margin-left: 8.5rem;
+}
+.con-rate-3 {
+  margin-left: 11rem;
+}
+.rate {
+  padding: 2rem;
+  color: var(--Very-Dark-Magenta);
+  font-weight: 900;
+}
+.gird {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+}
+.card-1,
+.card-2,
+.card-3 {
+  background-color: var(--Very-Dark-Magenta);
+  max-height: fit-content;
+  max-width: 63%;
+  padding: 1.9rem;
+  margin-top: 5rem;
+  border-radius: 10px;
+  color: var(--White);
+}
+.card-2{
+    margin-top: 7rem;
+}
+.card-3{
+    margin-top: 9rem;
+}
+.card-img {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+p.para {
+  width: 16rem;
+  line-height: 1.7rem;
+  margin-top: 20px;
+}
+.buy{
+    color: var(--Soft-Pink); 
+    font-size: 14px;  
+    font-weight: 400;
+}
+img.pic{
+    width: 35px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width="375px") {
+  *{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+  }
+  .container{
+    display: flex;
+    place-content: center;
+  }
+}
