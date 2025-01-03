@@ -134,11 +134,13 @@ h2 {
   .container {
     width: 760px;
     margin-right: 500px;
+     place-content: center;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+     place-content: center;
   }
 }
 @media screen and (min-width: 1024px) {
