@@ -128,6 +128,7 @@ h2 {
 @media screen and (min-width: 425px) {
   .container {
     width: 425px;
+     place-content: center;
   }
 }
 @media screen and (min-width: 760px) {
@@ -146,6 +147,7 @@ h2 {
 @media screen and (min-width: 1024px) {
   .container {
     width: 1024px;
+     place-content: center;
   }
 }
 @media screen and (min-width: 1440px) {
