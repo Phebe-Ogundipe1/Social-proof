@@ -15,6 +15,7 @@ body {
     url(images/bg-pattern-top-mobile.svg);
   background-repeat: no-repeat;
   padding: 10px;
+  margin: 0;
 }
 .container {
   display: flex;
@@ -132,7 +133,6 @@ h2 {
 @media screen and (min-width: 760px) {
   .container {
     width: 760px;
-    height: 1600px;
   }
 }
 @media screen and (min-width: 768px) {
